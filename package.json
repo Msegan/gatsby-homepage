@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
-  "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "name": "gatsby-homepage",
+  "description": "Personal website for Max Segan",
+  "version": "1.0.0",
+  "author": "Max Segan <max@segan.com>",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -23,10 +23,12 @@
     "react-helmet": "^5.2.1",
     "react-spring": "^8.0.20",
     "styled-components": "^4.2.0",
+    "tailwind": "^4.0.0",
     "tailwind.macro": "^0.5.10",
     "tailwindcss": "^0.7.4",
-    "typeface-cantata-one": "^0.0.72",
-    "typeface-open-sans": "^0.0.54"
+    "typeface-cantata-one": "0.0.72",
+    "typeface-open-sans": "0.0.54",
+    "typescript": "^3.4.5"
   },
   "keywords": [
     "gatsby",
@@ -53,11 +55,11 @@
     "prettier": "^1.17.1"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/Msegan/gatsby-homepage",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/Msegan/gatsby-homepage/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://www.maxsegan.com"
 }
