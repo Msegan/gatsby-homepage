@@ -38,7 +38,7 @@ const TitleText = styled.p`
   ${tw`pt-6 text-grey-light font-sans text-3xl md:text-4xl xl:text-5xl z-10`};
 `
 
-const Note = ({ location}) => (
+const Note = ({ noteName }) => (
   <>
     <Layout />
     <Content>
@@ -58,8 +58,8 @@ const Note = ({ location}) => (
         <SVG icon="hexa" width={16} stroke={colors['grey-darker']} left="10%" top="50%" />
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </BackgroundContent>
-      <TitleText>{notemap[location.state.choice].title}</TitleText>
-      {notemap[location.state.choice].content.map(text => <NoteText>{text}</NoteText>)}
+      <TitleText>{notemap[noteName]['title']}</TitleText>
+      {notemap[noteName]['content'].map(text => <NoteText>{text}</NoteText>)}
       <Footer>
         &copy; 2019 by Max Segan
       </Footer>
