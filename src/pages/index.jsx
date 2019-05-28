@@ -71,8 +71,7 @@ const Index = () => (
           Avid Economist reader and political junkie. New Yorker. 
         <br /><br />
           I'm writing ever more documents that don't compile.
-          This is where I practice persuasive, clear, and concise writing.
-          There's always a long way to go.
+          I use this page to practice clear, persuasive, and concise writing with a dash of web development.
         </AboutDesc>
       </Hero>
       <Projects offset={1.1}>

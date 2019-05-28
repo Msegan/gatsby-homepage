@@ -23,7 +23,7 @@ const BackgroundContent = styled.div`
 
 const BackgroundImage = styled.div`
   ${tw`w-full z-0`};
-  background-image: linear-gradient(to right, #0F2027 0%, #203A43 50%, #2C5364 100%);
+  background-image: linear-gradient(to right, #161719 0%, #0F2027 100%);
   margin-top: -200px;
   position: fixed;
   height: 200%;
