@@ -55,7 +55,7 @@ const Wrapper = styled.div`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={3.5}>
+    <Parallax pages={3.4}>
       <Hero offset={0}>
         <Wrapper>
           <Avatar src={avatar} alt="Max Segan" />
@@ -75,7 +75,7 @@ const Index = () => (
           There's always a long way to go.
         </AboutDesc>
       </Hero>
-      <Projects offset={1}>
+      <Projects offset={1.1}>
         <Title>Notes</Title>
         <ProjectsWrapper>
           <ProjectCard

@@ -19,16 +19,16 @@ const Projects = ({ children, offset }) => (
     <Divider
       bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
       speed={-0.1}
-      offset={`${offset}.1`}
+      offset={`${offset + 0.1}`}
       factor={1.05}
     />
     <DividerBottom
       bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
       speed={-0.1}
-      offset={`${offset + 1}.2`}
+      offset={`${offset + 1.2}`}
       factor={0.2}
     />
-    <Content speed={0.4} offset={`${offset}.1`} factor={1.2}>
+    <Content speed={0.4} offset={`${offset + 0.1}`} factor={1.2}>
       <Inner>{children}</Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={2}>
