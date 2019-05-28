@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: 'Segan', // Alternative Site title for SEO
   siteTitleShort: 'Max', // short_name for manifest
   siteHeadline: 'Personal website', // Headline for schema.org JSONLD
-  siteUrl: 'https://www.maxsegan.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://maxsegan.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
   siteDescription: 'Personal website for Max Segan',

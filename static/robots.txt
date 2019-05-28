@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://www.maxsegan.com/sitemap.xml
+sitemap: https://maxsegan.com/sitemap.xml
