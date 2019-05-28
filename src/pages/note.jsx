@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { createGlobalStyle } from 'styled-components'
 import tw from 'tailwind.macro'
 import { colors } from '../../tailwind'
 import SVG from '../components/SVG'
@@ -32,20 +31,16 @@ const BackgroundImage = styled.div`
 
 const NoteText = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans text-justify z-10`};
+  margin-bottom: 2px;
 `
 
 const TitleText = styled.p`
   ${tw`pt-6 text-grey-light font-sans text-3xl md:text-4xl xl:text-5xl z-10`};
 `
-const NoteStyle = createGlobalStyle`
-  html {
-  }
-`
 
 const Note = ({ location}) => (
   <>
     <Layout />
-    <NoteStyle />
     <Content>
       <BackgroundContent>
         <BackgroundImage />
