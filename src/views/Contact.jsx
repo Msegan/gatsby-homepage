@@ -9,8 +9,7 @@ import SVG from '../components/SVG'
 
 const Contact = ({ children, offset }) => (
   <>
-    <Divider fill="#23262b" speed={0.2} offset={offset}>
-    </Divider>
+    <Divider fill="#23262b" speed={0.2} offset={offset} />
     <Content speed={0.4} offset={offset}>
       {children}
     </Content>
