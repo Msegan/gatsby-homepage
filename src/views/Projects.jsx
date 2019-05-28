@@ -6,10 +6,11 @@ import Inner from '../elements/Inner'
 import { colors } from '../../tailwind'
 import SVG from '../components/SVG'
 
+// Ugly hack bc of a chrome bug with clip-path
+// https://stackoverflow.com/questions/53396831/clip-path-horizontal-white-line-in-chrome
+
 const Projects = ({ children, offset }) => (
   <>
-    // Ugly hack bc of a chrome bug with clip-path
-    // https://stackoverflow.com/questions/53396831/clip-path-horizontal-white-line-in-chrome
     <DividerMiddle
       bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
       speed={-0.1}
