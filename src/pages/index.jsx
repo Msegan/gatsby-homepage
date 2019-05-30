@@ -63,7 +63,7 @@ const Index = () => (
             <BigTitle>
               Max Segan
             </BigTitle>
-            <Subtitle>Make, design, write</Subtitle>
+            <Subtitle>Build, design, write</Subtitle>
           </div>
         </Wrapper>
         <AboutDesc>
@@ -82,7 +82,7 @@ const Index = () => (
             link="debt"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Tech debt has a PR problem
+            Debt isn't a four letter word
           </ProjectCard>
           <ProjectCard
             title="On Conviction"

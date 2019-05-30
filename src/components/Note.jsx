@@ -10,7 +10,7 @@ import Layout from '../components/Layout'
 import notemap from '../../static/notemap'
 
 const Footer = styled.footer`
-  ${tw`text-center text-grey pin-b p-6 font-sans text-md lg:text-lg z-10`};
+  ${tw`text-center text-grey pin-b p-6 font-sans text-md lg:text-lg z-10 mt-8`};
 `
 
 const Content = styled.div`
@@ -59,7 +59,7 @@ const Note = ({ noteName }) => (
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </BackgroundContent>
       <TitleText>{notemap[noteName]['title']}</TitleText>
-      {notemap[noteName]['content'].map(text => <NoteText>{text}</NoteText>)}
+      {notemap[noteName]['content'].map(text => <NoteText><div dangerouslySetInnerHTML={{ __html: text }} /></NoteText>)}
       <Footer>
         &copy; 2019 by Max Segan
       </Footer>
