@@ -4,7 +4,7 @@ const notemap = {
   	content: `
 Tech debt is considered shameful in projects. This is wrong. Debt lets you scale faster than otherwise possible and can save you from massive wasted effort. However, it has a dark side beyond just the risk that comes with leverage. Most important is conscious rather than accidental leverage via debt.
 
-Before diving into tech debt in particular it's useful to understand a few simple concepts of traditional debt. Debt is a sum of money that is owed. You may pay it slowly over time or all in one chunk. At the core we trade money in the future for money today. Tech debt is not monetary. Rather, we are trading engineering time in the future for engineering time today.
+Tech debt is a concept in programming for short term solutions that will need to be revamped or entirely rebuild. Before diving into tech debt in particular it's useful to understand a few simple concepts of traditional debt as the analogy is a strong one. Debt is a sum of money that is owed. You may pay it slowly over time or all in one chunk. At the core we trade money in the future for money today. Tech debt is not monetary. Rather, we are trading engineering time in the future for engineering time today.
 
 Tech debt comes in three forms. First, and most innocent, is the <b>naive implementation</b>. You may have crafted the desired API but in sprinting toward deadlines you consciously implement a simple but inefficient or otherwise temporary version. Second, and more dangerous, is a <b>temporary foundation</b> or API. You may plan to migrate your codebase to another language or framework; these changes are expensive and take time to peel back. The third form that tech debt can take is the only one which should be universally avoided.
 
