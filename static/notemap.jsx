@@ -8,7 +8,7 @@ Before diving into tech debt in particular it's useful to understand a few simpl
 
 Three important properties of tradition debt are interest rate, repayment schedule, and defaults. These have simple definitions and direct correspondence to tech debt.
 
-<span>&#9888;</span>Tech debt has an evil twin. Good tech debt involves tradeoffs to shift time, but should never incur structural risk. Bad debt introduces the incorrect, inherently fragile, or <a href="https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming)">spooky action at a distance</a>. Good debt requires moving things around, replacing parts, or deferring upgrades without changing behavior. Bad debt incurs systemic risk and makes your system unsafe.
+<span>&#9760;</span> Tech debt has an evil twin. Good tech debt involves tradeoffs to shift time, but should never incur structural risk. Bad debt introduces the incorrect, inherently fragile, or <a href="https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming)">spooky action at a distance</a>. Good debt requires moving things around, replacing parts, or deferring upgrades without changing behavior. Bad debt incurs systemic risk and makes your system unsafe.
 
 Notably, interest rates need not be positive. Debt can have zero or negative interest rates; this is attractive debt worth looking out for. Tech debt often has zero interest rates, such as when a system is fully encapsulated. Negative interest rates on debt are especially attractive, and do exist. Code modernization efforts offer an interesting case study in negative interest rates. If we expect many features to be phased out and deleted it may cost less time to do a migration in the future once there's less to migrate.
 
