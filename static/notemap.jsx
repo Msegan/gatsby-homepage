@@ -1,6 +1,7 @@
 const notemap = {
   debt: {
   	title: 'On Debt',
+  	date: '5/30/19',
   	content: `
 Tech debt is considered shameful in projects. This is wrong. Debt lets you scale faster than otherwise possible and can dramatically limit loss. However, it has a dark side beyond just the risk that comes with leverage.
 
@@ -27,6 +28,7 @@ Tech debt is a powerful tool to be respected, utilized, and avoided where approp
   },
   conviction: {
   	title: 'On Conviction',
+  	date: 'Pending',
   	content: [`
 		  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 		  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -54,6 +56,7 @@ Tech debt is a powerful tool to be respected, utilized, and avoided where approp
   },
   continuity: {
   	title: 'On Continuity',
+  	date: 'Pending',
   	content: [`
 		  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 		  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -81,6 +84,7 @@ Tech debt is a powerful tool to be respected, utilized, and avoided where approp
   },
   exceptionalism: {
   	title: 'On Exceptionalism',
+  	date: 'Pending',
   	content: [`
 		  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 		  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

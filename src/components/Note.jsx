@@ -35,7 +35,12 @@ const NoteText = styled.p`
 `
 
 const TitleText = styled.p`
-  ${tw`pt-6 text-grey-light font-sans text-3xl md:text-4xl xl:text-5xl z-10`};
+  ${tw`pt-6 text-grey-light font-sans text-3xl md:text-4xl xl:text-5xl z-10 mb-0`};
+`
+
+const DateText = styled.p`
+  ${tw`text-grey text-lg md:text-xl lg:text-2xl font-sans text-justify z-10 italic`};
+  margin-bottom: 2px;
 `
 
 const Note = ({ noteName }) => (
@@ -59,6 +64,7 @@ const Note = ({ noteName }) => (
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </BackgroundContent>
       <TitleText>{notemap[noteName]['title']}</TitleText>
+      <DateText>Published {notemap[noteName]['date']}</DateText>
       {notemap[noteName]['content'].map(text => <NoteText><div dangerouslySetInnerHTML={{ __html: text }} /></NoteText>)}
       <Footer>
         &copy; 2019 by Max Segan
