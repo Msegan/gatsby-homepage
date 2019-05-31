@@ -15,7 +15,7 @@ Tech debt involves suboptimal solutions but never incurs structural fragility. R
 
 Having examined nuances of tech debt and technical risk, we can now gain further insight by making an analogy to financial debt. Three key properties of traditional debt are interest rate, repayment schedule, and defaults. These have simple definitions and direct correspondence to tech debt.
 
-Interest rates can be <a href=”https://www.investopedia.com/terms/n/negative-interest-rate.asp”>zero or even negative<a> allowing you to pay back less than you get today. This is almost always a deal worth taking. A common example of negative interest rates in tech debt is code modernization efforts for features which may be deleted. Deleted code is always up to date.
+Interest rates can be <a href=”https://www.investopedia.com/terms/n/negative-interest-rate.asp”>zero or even negative</a> allowing you to pay back less than you get today. This is almost always a deal worth taking. A common example of negative interest rates in tech debt is code modernization efforts for features which may be deleted. Deleted code is always up to date.
 
 High interest debt carries significant risk but may be worth taking on with a short repayment schedule. Consider revamping an API which adds new callsites rapidly and where every callsite will needs to be updated by hand. This is high interest tech debt and should generally not be taken on or deferred. If the repayment schedule is short enough, say only a few weeks, it may still be prudent to delay the migration. A big launch coming up is a reasonable cause for deferral.
 
