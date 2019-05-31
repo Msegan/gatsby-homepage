@@ -82,7 +82,7 @@ const Index = () => (
             link="debt"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Debt isn't a four letter word
+            Debt isn't a four-letter word
           </ProjectCard>
           <ProjectCard
             title="On Conviction"
