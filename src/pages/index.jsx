@@ -82,28 +82,28 @@ const Index = () => (
             link="debt"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Debt isn't a four-letter word
+            Debt isn't a four-letter  word
           </ProjectCard>
           <ProjectCard
-            title="On Conviction"
+            title="[WIP] On Conviction"
             link="conviction"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             The best lack all conviction
           </ProjectCard>
           <ProjectCard
-            title="On Continuity"
+            title="[WIP] On Continuity"
             link="continuity"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Planning, ideological whiplash, and the deep state
+            Work in progress
           </ProjectCard>
           <ProjectCard
-            title="On Exceptionalism"
+            title="[WIP] On Exceptionalism"
             link="exceptionalism"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Self-fulfilling prophecy
+            Work in progress
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>

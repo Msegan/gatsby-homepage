@@ -7,8 +7,6 @@ import SVG from '../components/SVG'
 // Components
 import Layout from '../components/Layout'
 
-import notemap from '../../static/notemap'
-
 const Footer = styled.footer`
   ${tw`text-center text-grey pin-b p-6 font-sans text-md lg:text-lg z-10 mt-8`};
 `
@@ -43,7 +41,7 @@ const DateText = styled.p`
   margin-bottom: 2px;
 `
 
-const Note = ({ noteName }) => (
+const Note = ({ note }) => (
   <>
     <Layout />
     <Content>
@@ -63,9 +61,9 @@ const Note = ({ noteName }) => (
         <SVG icon="hexa" width={16} stroke={colors['grey-darker']} left="10%" top="50%" />
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </BackgroundContent>
-      <TitleText>{notemap[noteName]['title']}</TitleText>
-      <DateText>Published {notemap[noteName]['date']}</DateText>
-      {notemap[noteName]['content'].map(text => <NoteText><div dangerouslySetInnerHTML={{ __html: text }} /></NoteText>)}
+      <TitleText>{note['title']}</TitleText>
+      <DateText>Published {note['date']}</DateText>
+      {note['content'].map(text => <NoteText><div dangerouslySetInnerHTML={{ __html: text }} /></NoteText>)}
       <Footer>
         &copy; 2019 by Max Segan
       </Footer>

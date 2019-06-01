@@ -1,9 +1,10 @@
 import React from 'react'
 import Note from '../../components/Note'
+import { continuitynote } from '../../../static/notemap'
 
 const ContinuityNote = () => (
   <>
-    <Note noteName={'continuity'} />
+    <Note note={continuitynote} />
   </>
 )
 

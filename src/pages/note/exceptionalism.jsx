@@ -1,9 +1,10 @@
 import React from 'react'
 import Note from '../../components/Note'
+import { exceptionalismnote } from '../../../static/notemap'
 
 const ExceptionalismNote = () => (
   <>
-    <Note noteName={'exceptionalism'} />
+    <Note note={exceptionalismnote} />
   </>
 )
 
