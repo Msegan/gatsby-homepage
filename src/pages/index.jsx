@@ -96,7 +96,7 @@ const Index = () => (
             link="conviction"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            
+            Work in progress 
           </ProjectCard>
           <ProjectCard
             title="[WIP] On Exceptionalism"
