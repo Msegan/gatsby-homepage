@@ -85,11 +85,11 @@ const Index = () => (
             Debt isn't a four-letter  word
           </ProjectCard>
           <ProjectCard
-            title="The Pen"
-            link="pen"
+            title="On Censorship"
+            link="censorship"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            I'll write whatever you want, just put down the sword
+            I'll pen whatever you want, just put down the sword
           </ProjectCard>
           <ProjectCard
             title="[WIP] On Conviction"

@@ -26,8 +26,8 @@ Tech debt is a powerful tool to be respected, utilized, and avoided where approp
 	`.split("\n").filter(word => word.length > 1),
 };
 
-export const pennote = {
-title: 'The Pen',
+export const censorshipnote = {
+title: 'On Censorship',
 	date: 'June 4th, 2019',
 	content: [`
 Students in the northwest<br/>
