@@ -1,6 +1,6 @@
 export const debtnote = {
 	title: 'On Debt',
-	date: '5/30/19',
+	date: 'May 30th, 2019',
 	content: `
 Most engineers consider tech debt shameful. This is wrong. Debt lets you scale faster than otherwise possible and can dramatically limit loss. The truly dangerous thing in software is not tech debt, but rather, its evil twin: technical risk <span>&#9760;</span>
 
@@ -25,6 +25,21 @@ While tech debt is a powerful tool, there is undesirable debt. While even bad de
 Tech debt is a powerful tool to be respected, utilized, and avoided where appropriate. Fear debt that will balloon quickly, such as on foundations, and embrace low, zero, and negative interest rate debt. Leverage debt in projects which have a high chance of failure and are encapsulated. Continually reevaluate your system to identify debt you did not know you had, and, most importantly, <b>do not skimp on API design, take on technical risk, or conflate risk with debt</b>.
 	`.split("\n").filter(word => word.length > 1),
 };
+
+export const pennote = {
+title: 'The Pen',
+	date: 'June 4th, 2019',
+	content: [`
+Students in the north-west<br/>
+Watch the grass-mud horse overrun the desert<br/>
+Saved by Papa and the river crabs<br/>
+Leaps forward in education;<br/>
+Heaven is watching as<br/>
+We learn our history;<br/>
+Honor our founders by thinking twice or<br/>
+Soil parchment; always double
+`],
+}
 
 export const convictionnote = {
 	title: 'On Conviction',
