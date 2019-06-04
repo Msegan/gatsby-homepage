@@ -89,7 +89,7 @@ const Index = () => (
             link="pen"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            And I'll write whatever you want, just put down the gun
+            I'll write whatever you want, just put down the sword
           </ProjectCard>
           <ProjectCard
             title="[WIP] On Conviction"
