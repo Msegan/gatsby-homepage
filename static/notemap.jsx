@@ -30,7 +30,7 @@ export const pennote = {
 title: 'The Pen',
 	date: 'June 4th, 2019',
 	content: [`
-Students in the north-west<br/>
+Students in the northwest<br/>
 Watch the grass-mud horse overrun the desert<br/>
 Saved by Papa and the river crabs<br/>
 Leaps forward in education;<br/>
