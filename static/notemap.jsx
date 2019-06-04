@@ -30,10 +30,10 @@ export const censorshipnote = {
 title: 'On Censorship',
 	date: 'June 4th, 2019',
 	content: [`
-Students in the northwest<br/>
-Watch the grass-mud horse overrun the desert<br/>
-Saved by Papa and the river crabs<br/>
-Leaps forward in education;<br/>
+Students in the northwest see<br/>
+The crudeness of the grass-mud horse overrun the desert<br/>
+Saved by Papa and the river crabs;<br/>
+Leaps forward in education<br/>
 Heaven is watching as<br/>
 We learn our history;<br/>
 Honor our founders by thinking twice or<br/>
