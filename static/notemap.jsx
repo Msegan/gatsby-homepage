@@ -16,7 +16,7 @@ Having examined nuances of tech debt and technical risk, we can now gain further
 
 Interest rates can be <a href="https://www.investopedia.com/terms/n/negative-interest-rate.asp">zero or even negative</a> allowing you to pay back less than you get today. This is almost always a deal worth taking. A common example of negative interest rates in tech debt is code modernization efforts for features which may be deleted. Deleted code is always up to date.
 
-High interest debt imparts a significant burden but may be worth taking on with a short repayment schedule. Consider revamping an API which adds new callsites rapidly and where every callsite will needs to be updated by hand. This is high interest tech debt and should generally not be taken on or deferred. If the repayment schedule is short enough, say only a few weeks, it may still be prudent to delay the migration. A big launch coming up is a reasonable cause for deferral.
+High interest debt imparts a significant burden but may be worth taking on with a short repayment schedule. Consider revamping an API which adds new callsites rapidly and where every callsite will need to be updated by hand. This is high interest tech debt and should generally not be taken on or deferred. If the repayment schedule is short enough, say only a few weeks, it may still be prudent to delay the migration. A big launch coming up is a reasonable cause for deferral.
 
 Historically, if a company you owned part of went bankrupt, you personally assumed its debt with no limits. Ouch. Enter the concept of limited liability. The Economist has a <a href="https://www.economist.com/finance-and-economics/1999/12/23/the-key-to-industrial-capitalism-limited-liability">great article on the history of LLCs</a>. Limited liability creates a powerful asymmetry of unlimited upside but limited downside, whereby if a company fails the rest of your assets are safe. Tech debt allows you to capitalize on the same asymmetry, also through bankruptcy. Any time you begin a new effort you should ask yourself if it's separate from your other systems and can simply be deleted. <b><code>rm -rf</code></b> is your bankruptcy. If you're able to create that separation and your project is experimental, <b>be aggressive in taking on tech debt</b>. There is a high chance that experimental projects fail and you can default on your debt. If the project succeeds, paying it back is usually a good problem to have.
 
@@ -31,12 +31,12 @@ title: 'On Censorship',
 	date: 'June 4th, 2019',
 	content: [`
 Students in the northwest see<br/>
-The crudeness of the grass-mud horse overrun the desert<br/>
+The crudeness of the grass-mud horse overruns the desert<br/>
 Saved by Papa and the river crabs;<br/>
 Leaps forward in education<br/>
 Heaven is watching as<br/>
 We learn our history;<br/>
-Honor our founders by thinking twice or<br/>
+Honor our ancestors by thinking twice or<br/>
 Soil parchment; always double
 `],
 }
