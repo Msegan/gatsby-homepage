@@ -68,7 +68,7 @@ const Index = () => (
         </Wrapper>
         <AboutDesc>
           Engineering Director at Facebook. Tennis, basketball, and lifting.
-          Avid Economist reader and political junkie. New Yorker. 
+          Economist addict and political junkie. New Yorker. 
         <br /><br />
           I'm writing ever more documents that don't compile.
           I use this page to practice clear, persuasive, and concise writing with a dash of web development.
