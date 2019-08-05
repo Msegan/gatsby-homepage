@@ -43,21 +43,11 @@ Soil parchment; always double
 
 export const wantnote = {
 	title: 'On Want',
-	date: 'August 5th, 2019',
+	date: 'Pending',
 	content: `
-Every six months I touch base with each of my reports about what they want in work and life. It’s easy to get caught in the day to day and week to week, forgetting to adjust course as we grow and our desires change. When known, typical outcomes range from a desire for management opportunities to getting home in time for dinner with the family every night. However, many either don’t know what to work toward or think they do only to later realize they were wrong. Thankfully, there are useful principles to identify what we want.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-When we <b>want</b> we’re predicting the future, namely that some state of the world will be preferable to others. If we’re predicting something in the near term or we’re familiar with, such as what we want for dinner, there’s a fair chance you’re going to be right. If your time horizon is long or the domain foreign to you, such as a new job or discipline, be ready for surprise.
-
-Predicting new areas is hard, but we can increase confidence. I wanted to get a PhD in Computer Science, so I got a research internship one summer. We can often sample things, find people who’ve walked similar paths, or simply research the area. Often more important than researching is explore different alternative domains to identify potential paths not previously considered.
-
-Even with comprehensive knowledge of our options and informed opinions about them, our underlying desires change. Not only do we change in unpredictable ways, but the people and world around us do as well - both of which play a large role in what we want. These factors add an inherent uncertainty to our predictions. Thus, we’re best served evaluating ranges and many options rather than just a single path. Option value reigns.
-
-There are many things we can learn, get, or experience that hedge our future. Many skills and knowledge are broadly applicable, such as writing, people management, or foreign language. However uncouth, it’s sensible to want money and status in addition to skills and experience. Money provides total optionality in how you use it. Similarly, a well-known title from a reputable company can qualify you for roles. Usually preferable to skills or money is a strong reputation. Especially if you work with exceptional coworkers, their admiration and respect will be the most valuable thing you can get.
-
-It’s necessary to collaborate and avoid isolating yourself to foster a strong reputation. Take the time to help others and take on work which is not formally rewarded. Developing skills takes similar intention, stretching outside your comfort zone, and often tradeoff with formal rewards. Your company likely incentivizes you to work where you’re already most impactful rather than learning new areas.
-
-Whatever tradeoffs you make, working towards a promotion, money, or skills are widely understood and respected. They can be false goals. Many people feel compelled to follow an existing notion of success or a path that they set out in the past. A long time frame and limited familiarity in an area are not the only contributors to poor accuracy in predicting what we want. We often fail to give ourselves permission to be honest. We stay on our default path, focus on advancement over quality of life rather, or force ourselves into a new area we hate instead of continuing doing work we love. Give yourself permission to march to the beat of your own drum.
+In cursus turpis massa tincidunt dui ut ornare lectus. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Nec tincidunt praesent semper feugiat. Facilisis sed odio morbi quis commodo. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Vel turpis nunc eget lorem dolor sed viverra. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. tortor consequat id porta. Ante metus dictum at tempor commodo ullamcorper a lacus. At imperdiet dui accumsan sit amet. Viverra justo nec ultrices dui sapien eget. Tellus id interdum velit laoreet id donec ultrices. Nibh tortor id aliquet lectus. Praesent tristique magna sit amet. Sit amet aliquam id diam maecenas. Laoreet sit amet cursus sit amet dictum sit. Ac turpis egestas sed tempus urna.
 	`.split("\n").filter(word => word.length > 1),
 };
 
