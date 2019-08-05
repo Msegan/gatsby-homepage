@@ -63,7 +63,6 @@ const Index = () => (
             <BigTitle>
               Max Segan
             </BigTitle>
-            <Subtitle>Build, design, write</Subtitle>
           </div>
         </Wrapper>
         <AboutDesc>
@@ -82,28 +81,28 @@ const Index = () => (
             link="debt"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Debt isn't a four-letter  word
+            Debt isn't a four-letter word
           </ProjectCard>
           <ProjectCard
-            title="On Censorship"
-            link="censorship"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            I'll pen whatever you want, just put down the sword
-          </ProjectCard>
-          <ProjectCard
-            title="[WIP] On Conviction"
-            link="conviction"
+            title="On Want"
+            link="want"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            Work in progress 
+            It's tough to make predictions, especially about the future
           </ProjectCard>
           <ProjectCard
-            title="[WIP] On Exceptionalism"
-            link="exceptionalism"
+            title="[WIP] On Roadmaps"
+            link="roadmaps"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            Coming soon
+          </ProjectCard>
+          <ProjectCard
+            title="[WIP] On Persona"
+            link="persona"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Work in progress
+            Coming soon
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
